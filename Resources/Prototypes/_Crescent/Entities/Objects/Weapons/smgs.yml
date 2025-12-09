@@ -563,11 +563,7 @@
     - state: mag-0
       map: ["enum.GunVisualLayers.Mag"]
   - type: Gun
-    fireRate: 13
-    selectedMode: FullAuto
-    availableModes:
-    - SemiAuto
-    - FullAuto
+     fireRate: 14
     soundGunshot:
       path: /Audio/_Crescent/Weapons/Guns/supressed_2/supressed_gunshot_2.ogg
       params:
