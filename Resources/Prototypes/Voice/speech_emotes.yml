@@ -9,10 +9,33 @@
     - Vocal
   chatMessages: ["chat-emote-msg-scream"]
   chatTriggers:
-    - screams
-    - shrieks
-    - screeches
-    - yells
+  - scream
+  - screams
+  - screaming
+  - screamed
+  - shriek
+  - shrieks
+  - shrieking
+  - shrieked
+  - screech
+  - screeches
+  - screeching
+  - screeched
+  - yell
+  - yells
+  - yelled
+  - yelling
+  # RU-Localization-Start
+  - кричит
+  - кричит.
+  - кричит!
+  - орёт
+  - орёт.
+  - орёт!
+  - визжит
+  - визжит.
+  - визжит!
+  # RU-Localization-End
 
 - type: emote
   id: Laugh
@@ -24,10 +47,30 @@
     - Vocal
   chatMessages: ["chat-emote-msg-laugh"]
   chatTriggers:
-    - laughs
-    - chuckles
-    - giggles
-    - chortles
+  - laugh
+  - laughs
+  - laughing
+  - laughed
+  - chuckle
+  - chuckles
+  - chuckled
+  - chuckling
+  - giggle
+  - giggles
+  - giggling
+  - giggled
+  - chortle
+  - chortles
+  - chortling
+  # RU-Localization-Start
+  - смеется
+  - смеётся
+  - хохочет
+  - хихикает
+  - хихикнул
+  - хихикнула
+  - ржёт
+  # RU-Localization-End
 
 - type: emote
   id: Honk
@@ -40,7 +83,13 @@
     - SiliconEmotes
     - HarpyEmotes
   chatTriggers:
-    - honks
+  - honk
+  - honks
+  - honked
+  - honking
+  # RU-Localization-Start
+  - хонк
+  # RU-Localization-End
 
 - type: emote
   id: Sigh
@@ -52,7 +101,13 @@
     - Vocal
   chatMessages: ["chat-emote-msg-sigh"]
   chatTriggers:
-    - sighs
+  - sighs
+  - sighed
+  # RU-Localization-Start
+  - вздыхает
+  - вздохнул
+  - вздохнула
+  # RU-Localization-End
 
 - type: emote
   id: Whistle
@@ -64,7 +119,13 @@
     - Vocal
   chatMessages: ["chat-emote-msg-whistle"]
   chatTriggers:
-    - whistles
+  - whistle
+  - whistles
+  - whistleblowing
+  # RU-Localization-Start
+  - свистит
+  - свистнул
+  # RU-Localization-End
 
 - type: emote
   id: Crying
@@ -76,8 +137,16 @@
     - Vocal
   chatMessages: ["chat-emote-msg-crying"]
   chatTriggers:
-    - cries
-    - sobs
+  - cry
+  - crying
+  - cries
+  - sob
+  - sobs
+  - sobbing
+  # RU-Localization-Start
+  - плачет
+  - рыдает
+  # RU-Localization-End
 
 - type: emote
   id: Squish
@@ -92,7 +161,12 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-squish"]
   chatTriggers:
-    - squishes
+  - squish
+  - squishing
+  - squishes
+  # RU-Localization-Start
+  - хлюпает
+  # RU-Localization-End
 
 - type: emote
   id: Chitter
@@ -107,7 +181,12 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-chitter"]
   chatTriggers:
-   - chitters
+  - chitter
+  - chitters
+  - chittered
+  # RU-Localization-Start
+  - стрекочет
+  # RU-Localization-End
 
 - type: emote
   id: Squeak
@@ -122,7 +201,12 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-squeak"]
   chatTriggers:
-   - squeaks
+  - squeak
+  - squeaks
+  - squeaked
+  # RU-Localization-Start
+  - пищит
+  # RU-Localization-End
 
 - type: emote
   id: Click
@@ -137,7 +221,12 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-click"]
   chatTriggers:
-   - clicks
+  - click
+  - clicks
+  # RU-Localization-Start
+  - клац
+  - клацает
+  # RU-Localization-End
 
 # hand emotes
 - type: emote
@@ -153,7 +242,18 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-clap"]
   chatTriggers:
-    - claps
+  - claps
+  - clapping
+  - clapped
+  # RU-Localization-Start
+  - хлопает
+  - хлопнул
+  - хлопнула
+  - хлопает в ладоши
+  - хлопнул в ладоши
+  - хлопнула в ладоши
+  - апплодирует
+  # RU-Localization-End
 
 - type: emote
   id: Snap
@@ -166,15 +266,31 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: ["chat-emote-msg-snap"] # snaps <{THEIR($ent)}> fingers?
+  chatMessages: ["chat-emote-msg-snap"]
   chatTriggers:
-    - snaps
-    - snaps fingers
-    - snaps his fingers
-    - snaps her fingers
-    - snaps their fingers
-    - snaps its fingers
-    - snaps its' fingers
+  - snap
+  - snaps
+  - snapping
+  - snapped
+  - snap fingers
+  - snaps fingers
+  - snaps their fingers
+  - snapping fingers
+  - snapped fingers
+  # RU-Localization-Start
+  - щелкает
+  - щелкнул
+  - щелкнула
+  - щёлкает
+  - щёлкнул
+  - щёлкнула
+  - щелкает пальцами
+  - щелкнул пальцами
+  - щелкнула пальцами
+  - щёлкает пальцами
+  - щёлкнул пальцами
+  - щёлкнула пальцами
+  # RU-Localization-End
 
 - type: emote
   id: Salute
@@ -189,7 +305,14 @@
     - BorgChassis
   chatMessages: ["chat-emote-msg-salute"]
   chatTriggers:
-    - salutes
+  - salute
+  - salutes
+  # RU-Localization-Start
+  - салютует
+  - отдаёт честь
+  - отдал честь
+  - отдала честь
+  # RU-Localization-End
 
 - type: emote
   id: DefaultDeathgasp
@@ -233,7 +356,15 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-buzz"]
   chatTriggers:
-    - buzzes
+  - buzzing
+  - buzz
+  - buzzed
+  - buzzes
+  # RU-Localization-Start
+  - жужжит
+  - зажужжал
+  - зажужжала
+  # RU-Localization-End
 
 - type: emote
   id: Weh
@@ -255,7 +386,13 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-chirp"]
   chatTriggers:
-    - chirps
+  - chirp
+  - chirps
+  - chirped
+  - chirping
+  # RU-Localization-Start
+  - чирикает
+  # RU-Localization-End
 
 # Machine Emotes
 - type: emote
@@ -269,7 +406,13 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-beep"]
   chatTriggers:
-    - beeps
+  - beep
+  - beeps
+  - beeped
+  - beeping
+  # RU-Localization-Start
+  - бип
+  # RU-Localization-End
 
 - type: emote
   id: Boop
@@ -279,7 +422,7 @@
     tags:
     - SiliconEmotes
     - HarpyEmotes
-  chatMessages: [ boops ]
+  chatMessages: [boops]
   chatTriggers:
     - boops
 
@@ -294,7 +437,13 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-chime"]
   chatTriggers:
-    - chimes
+  - chime
+  - chimes
+  - chimed
+  - chiming
+  # RU-Localization-Start
+  - дзынь
+  # RU-Localization-End
 
 - type: emote
   id: Buzz-Two
@@ -307,7 +456,24 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-buzzestwo"]
   chatTriggers:
-    - buzzes twice
+  - buzztwice
+  - buzzstwice
+  - buzzestwice
+  - buzzingtwice
+  - buzzedtwice
+  - buzz twice
+  - buzzs twice
+  - buzzes twice
+  - buzzing twice
+  - buzzed twice
+  # RU-Localization-Start
+  - бипбуп
+  - бип буп
+  - бип-буп
+  - бипбип
+  - бип бип
+  - бип-бип
+  # RU-Localization-End
 
 - type: emote
   id: Ping
@@ -320,7 +486,13 @@
     - HarpyEmotes
   chatMessages: ["chat-emote-msg-ping"]
   chatTriggers:
-    - pings
+  - ping
+  - pings
+  - pinged
+  - pinging
+  # RU-Localization-Start
+  - пинг
+  # RU-Localization-End
 
 - type: emote
   id: Whirr
@@ -330,7 +502,7 @@
     tags:
     - SiliconEmotes
     - HarpyEmotes
-  chatMessages: [ whirrs ]
+  chatMessages: [whirrs]
   chatTriggers:
     - whirrs
 
@@ -345,7 +517,7 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ mars ]
+  chatMessages: [mars]
   chatTriggers:
     - mars
 
@@ -360,6 +532,6 @@
   blacklist:
     components:
     - BorgChassis
-  chatMessages: [ wurble ]
+  chatMessages: [wurble]
   chatTriggers:
     - wurble
