@@ -6,7 +6,7 @@
 - type: guideEntry
   id: HullrotRuleset
   name: guide-entry-hullrot-rules
-  text: "/ServerInfo/_Crescent/ServerRules/HullrotRuleset.xml"
+  text: "/ServerInfo/_Rat/ServerRules/RatRuleset.xml"
 
 - type: guideEntry
   id: SpaceLaw
