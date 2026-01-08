@@ -23,7 +23,7 @@ namespace Content.Server.Shuttles.Components
         [ViewVariables(VVAccess.ReadWrite), DataField]
         public float BaseMaxLinearVelocity = 20f;
 
-        public const float MaxAngularVelocity = 4f;
+        public const float MaxAngularVelocity = 6f;
 
         /// <summary>
         /// The cached thrust available for each cardinal direction
