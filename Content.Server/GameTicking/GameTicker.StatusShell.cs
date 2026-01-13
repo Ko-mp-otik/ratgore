@@ -1,5 +1,4 @@
 using System.Text.Json.Nodes;
-using Content.Server.JoinQueue;
 using Content.Shared.CCVar;
 using Content.Shared.GameTicking;
 using Robust.Server.ServerStatus;
@@ -28,8 +27,6 @@ namespace Content.Server.GameTicking
         ///     For access to the round ID in status responses.
         /// </summary>
         [Dependency] private readonly SharedGameTicker _gameTicker = default!;
-
-        [Dependency] private readonly JoinQueueManager _joinQueue = default!;
 
         private void InitializeStatusShell()
         {

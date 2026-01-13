@@ -8,7 +8,7 @@ using Content.Server.Connection;
 using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.Discord;
-using Content.Server.DiscordAuth;
+using Content.Server.Discord.WebhookMessages;
 using Content.Server.EUI;
 using Content.Server.GhostKick;
 using Content.Server.Info;
@@ -30,6 +30,9 @@ using Content.Shared.Chat;
 using Content.Shared.Kitchen;
 using Content.Shared.Players.PlayTimeTracking;
 using Content.Shared.Players.RateLimiting;
+using Content.Server._Forge.Discord; // Forge-Change
+using Content.Server._Forge.Sponsors; // Forge-Change
+using Content.Shared._Forge.Sponsors; // Forge-Change
 
 namespace Content.Server.IoC
 {
@@ -67,14 +70,22 @@ namespace Content.Server.IoC
             IoCManager.Register<PoissonDiskSampler>();
             IoCManager.Register<DiscordWebhook>();
             IoCManager.Register<ServerDbEntryManager>();
-            IoCManager.Register<JoinQueueManager>();
-            IoCManager.Register<DiscordAuthManager>();
             IoCManager.Register<ISharedPlaytimeManager, PlayTimeTrackingManager>();
             IoCManager.Register<ServerApi>();
             IoCManager.Register<JobWhitelistManager>();
             IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
+<<<<<<< HEAD
+=======
+            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
+            IoCManager.Register<ConnectionManager>();
+            IoCManager.Register<MultiServerKickManager>();
+            IoCManager.Register<CVarControlManager>();
+            IoCManager.Register<DiscordAuthManager>(); // Forge-Change
+            IoCManager.Register<SponsorManager>(); // Forge-Change
+            IoCManager.Register<ISharedSponsorManager, SponsorManager>(); // Forge-Change
+>>>>>>> ef21ebb6a5 (Привязка и донат система)
         }
     }
 }

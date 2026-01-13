@@ -7,7 +7,6 @@ using Content.Server.Chat.Managers;
 using Content.Server.Connection;
 using Content.Server.JoinQueue;
 using Content.Server.Database;
-using Content.Server.DiscordAuth;
 using Content.Server.EUI;
 using Content.Server.GameTicking;
 using Content.Server.GhostKick;
@@ -33,6 +32,8 @@ using Robust.Shared.ContentPack;
 using Robust.Shared.Prototypes;
 using Robust.Shared.Timing;
 using Robust.Shared.Utility;
+using Content.Server._Forge.Discord; // Forge-Change
+using Content.Server._Forge.Sponsors; // Forge-Change
 
 namespace Content.Server.Entry
 {
@@ -105,7 +106,6 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<ContentNetworkResourceManager>().Initialize();
                 IoCManager.Resolve<GhostKickManager>().Initialize();
                 IoCManager.Resolve<ServerInfoManager>().Initialize();
-                IoCManager.Resolve<JoinQueueManager>().Initialize();
                 IoCManager.Resolve<DiscordAuthManager>().Initialize();
                 IoCManager.Resolve<ServerApi>().Initialize();
 
@@ -149,6 +149,7 @@ namespace Content.Server.Entry
                 IoCManager.Resolve<IEntitySystemManager>().GetEntitySystem<GameTicker>().PostInitialize();
                 IoCManager.Resolve<IBanManager>().Initialize();
                 IoCManager.Resolve<IConnectionManager>().PostInit();
+                IoCManager.Resolve<SponsorManager>().Initialize(); // Forge-Change
             }
         }
 

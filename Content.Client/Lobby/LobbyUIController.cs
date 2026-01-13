@@ -28,6 +28,7 @@ using Robust.Shared.Utility;
 using static Content.Shared.Humanoid.SharedHumanoidAppearanceSystem;
 using CharacterSetupGui = Content.Client.Lobby.UI.CharacterSetupGui;
 using HumanoidProfileEditor = Content.Client.Lobby.UI.HumanoidProfileEditor;
+using Content.Client._Forge.Sponsors;
 
 namespace Content.Client.Lobby;
 
@@ -43,6 +44,7 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
     [Dependency] private readonly MarkingManager _markings = default!;
     [Dependency] private readonly IRobustRandom _random = default!;
     [Dependency] private readonly JobRequirementsManager _jobRequirements = default!;
+    [Dependency] private readonly SponsorManager _sponsorMan = default!;
     [UISystemDependency] private readonly HumanoidAppearanceSystem _humanoid = default!;
     [UISystemDependency] private readonly ClientInventorySystem _inventory = default!;
     [UISystemDependency] private readonly GuidebookSystem _guide = default!;
@@ -219,7 +221,8 @@ public sealed class LobbyUIController : UIController, IOnStateEntered<LobbyState
             _prototypeManager,
             _jobRequirements,
             _markings,
-            _random);
+            _random,
+            _sponsorMan);
 
 
         _profileEditor.OnOpenGuidebook += _guide.OpenHelp;
