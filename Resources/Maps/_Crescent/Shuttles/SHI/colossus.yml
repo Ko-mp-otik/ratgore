@@ -4,7 +4,7 @@ meta:
   engineVersion: 260.2.0
   forkId: ""
   forkVersion: ""
-  time: 09/24/2025 19:52:57
+  time: 01/23/2026 00:50:49
   entityCount: 3160
 maps: []
 grids:
@@ -684,6 +684,42 @@ entities:
             3067: 3,-21
             3076: 24,-21
             3079: 29,-21
+            3095: 0,0
+            3100: 0,4
+            3105: 0,5
+            3110: 0,6
+            3115: 0,16
+            3120: 0,17
+            3125: 0,18
+            3173: 23,-14
+            3181: 24,-14
+            3189: 8,-14
+            3194: 10,-15
+            3197: 12,-16
+            3200: 1,-19
+            3203: 2,-21
+            3208: 2,-20
+            3211: 3,-21
+            3220: 24,-21
+            3223: 29,-21
+            3239: 0,0
+            3244: 0,4
+            3249: 0,5
+            3254: 0,6
+            3259: 0,16
+            3264: 0,17
+            3269: 0,18
+            3317: 23,-14
+            3325: 24,-14
+            3333: 8,-14
+            3338: 10,-15
+            3341: 12,-16
+            3344: 1,-19
+            3347: 2,-21
+            3352: 2,-20
+            3355: 3,-21
+            3364: 24,-21
+            3367: 29,-21
         - node:
             zIndex: 1
             id: LatticeCornerNW
@@ -1023,6 +1059,42 @@ entities:
             3084: 30,-21
             3089: 30,-20
             3092: 31,-19
+            3131: 32,0
+            3136: 32,4
+            3141: 32,5
+            3146: 32,6
+            3151: 32,16
+            3156: 32,17
+            3161: 32,18
+            3167: 20,-16
+            3170: 22,-15
+            3175: 23,-14
+            3183: 24,-14
+            3191: 8,-14
+            3213: 3,-21
+            3216: 8,-21
+            3225: 29,-21
+            3228: 30,-21
+            3233: 30,-20
+            3236: 31,-19
+            3275: 32,0
+            3280: 32,4
+            3285: 32,5
+            3290: 32,6
+            3295: 32,16
+            3300: 32,17
+            3305: 32,18
+            3311: 20,-16
+            3314: 22,-15
+            3319: 23,-14
+            3327: 24,-14
+            3335: 8,-14
+            3357: 3,-21
+            3360: 8,-21
+            3369: 29,-21
+            3372: 30,-21
+            3377: 30,-20
+            3380: 31,-19
         - node:
             zIndex: 1
             id: LatticeCornerSE
@@ -1203,6 +1275,24 @@ entities:
             2984: 0,23
             3034: 24,-16
             3062: 2,-20
+            3098: 0,4
+            3103: 0,5
+            3108: 0,6
+            3113: 0,16
+            3118: 0,17
+            3123: 0,18
+            3128: 0,23
+            3178: 24,-16
+            3206: 2,-20
+            3242: 0,4
+            3247: 0,5
+            3252: 0,6
+            3257: 0,16
+            3262: 0,17
+            3267: 0,18
+            3272: 0,23
+            3322: 24,-16
+            3350: 2,-20
         - node:
             zIndex: 1
             id: LatticeCornerSW
@@ -1383,6 +1473,24 @@ entities:
             3020: 32,23
             3042: 8,-16
             3088: 30,-20
+            3135: 32,4
+            3140: 32,5
+            3145: 32,6
+            3150: 32,16
+            3155: 32,17
+            3160: 32,18
+            3164: 32,23
+            3186: 8,-16
+            3232: 30,-20
+            3279: 32,4
+            3284: 32,5
+            3289: 32,6
+            3294: 32,16
+            3299: 32,17
+            3304: 32,18
+            3308: 32,23
+            3330: 8,-16
+            3376: 30,-20
         - node:
             id: LatticeEdgeE
           decals:
@@ -1759,6 +1867,46 @@ entities:
             3065: 3,-21
             3074: 24,-21
             3077: 29,-21
+            3093: 0,0
+            3097: 0,4
+            3102: 0,5
+            3107: 0,6
+            3112: 0,16
+            3117: 0,17
+            3122: 0,18
+            3127: 0,23
+            3171: 23,-14
+            3177: 24,-16
+            3179: 24,-14
+            3187: 8,-14
+            3192: 10,-15
+            3195: 12,-16
+            3198: 1,-19
+            3201: 2,-21
+            3205: 2,-20
+            3209: 3,-21
+            3218: 24,-21
+            3221: 29,-21
+            3237: 0,0
+            3241: 0,4
+            3246: 0,5
+            3251: 0,6
+            3256: 0,16
+            3261: 0,17
+            3266: 0,18
+            3271: 0,23
+            3315: 23,-14
+            3321: 24,-16
+            3323: 24,-14
+            3331: 8,-14
+            3336: 10,-15
+            3339: 12,-16
+            3342: 1,-19
+            3345: 2,-21
+            3349: 2,-20
+            3353: 3,-21
+            3362: 24,-21
+            3365: 29,-21
         - node:
             id: LatticeEdgeN
           decals:
@@ -2362,6 +2510,70 @@ entities:
             3082: 30,-21
             3086: 30,-20
             3090: 31,-19
+            3094: 0,0
+            3099: 0,4
+            3104: 0,5
+            3109: 0,6
+            3114: 0,16
+            3119: 0,17
+            3124: 0,18
+            3129: 32,0
+            3133: 32,4
+            3138: 32,5
+            3143: 32,6
+            3148: 32,16
+            3153: 32,17
+            3158: 32,18
+            3165: 20,-16
+            3168: 22,-15
+            3172: 23,-14
+            3180: 24,-14
+            3188: 8,-14
+            3193: 10,-15
+            3196: 12,-16
+            3199: 1,-19
+            3202: 2,-21
+            3207: 2,-20
+            3210: 3,-21
+            3214: 8,-21
+            3217: 16,-17
+            3219: 24,-21
+            3222: 29,-21
+            3226: 30,-21
+            3230: 30,-20
+            3234: 31,-19
+            3238: 0,0
+            3243: 0,4
+            3248: 0,5
+            3253: 0,6
+            3258: 0,16
+            3263: 0,17
+            3268: 0,18
+            3273: 32,0
+            3277: 32,4
+            3282: 32,5
+            3287: 32,6
+            3292: 32,16
+            3297: 32,17
+            3302: 32,18
+            3309: 20,-16
+            3312: 22,-15
+            3316: 23,-14
+            3324: 24,-14
+            3332: 8,-14
+            3337: 10,-15
+            3340: 12,-16
+            3343: 1,-19
+            3346: 2,-21
+            3351: 2,-20
+            3354: 3,-21
+            3358: 8,-21
+            3361: 16,-17
+            3363: 24,-21
+            3366: 29,-21
+            3370: 30,-21
+            3374: 30,-20
+            3378: 31,-19
         - node:
             id: LatticeEdgeS
           decals:
@@ -2717,6 +2929,42 @@ entities:
             3040: 8,-16
             3060: 2,-20
             3085: 30,-20
+            3096: 0,4
+            3101: 0,5
+            3106: 0,6
+            3111: 0,16
+            3116: 0,17
+            3121: 0,18
+            3126: 0,23
+            3132: 32,4
+            3137: 32,5
+            3142: 32,6
+            3147: 32,16
+            3152: 32,17
+            3157: 32,18
+            3162: 32,23
+            3176: 24,-16
+            3184: 8,-16
+            3204: 2,-20
+            3229: 30,-20
+            3240: 0,4
+            3245: 0,5
+            3250: 0,6
+            3255: 0,16
+            3260: 0,17
+            3265: 0,18
+            3270: 0,23
+            3276: 32,4
+            3281: 32,5
+            3286: 32,6
+            3291: 32,16
+            3296: 32,17
+            3301: 32,18
+            3306: 32,23
+            3320: 24,-16
+            3328: 8,-16
+            3348: 2,-20
+            3373: 30,-20
         - node:
             id: LatticeEdgeW
           decals:
@@ -3093,6 +3341,46 @@ entities:
             3083: 30,-21
             3087: 30,-20
             3091: 31,-19
+            3130: 32,0
+            3134: 32,4
+            3139: 32,5
+            3144: 32,6
+            3149: 32,16
+            3154: 32,17
+            3159: 32,18
+            3163: 32,23
+            3166: 20,-16
+            3169: 22,-15
+            3174: 23,-14
+            3182: 24,-14
+            3185: 8,-16
+            3190: 8,-14
+            3212: 3,-21
+            3215: 8,-21
+            3224: 29,-21
+            3227: 30,-21
+            3231: 30,-20
+            3235: 31,-19
+            3274: 32,0
+            3278: 32,4
+            3283: 32,5
+            3288: 32,6
+            3293: 32,16
+            3298: 32,17
+            3303: 32,18
+            3307: 32,23
+            3310: 20,-16
+            3313: 22,-15
+            3318: 23,-14
+            3326: 24,-14
+            3329: 8,-16
+            3334: 8,-14
+            3356: 3,-21
+            3359: 8,-21
+            3368: 29,-21
+            3371: 30,-21
+            3375: 30,-20
+            3379: 31,-19
         - node:
             color: '#EFB34196'
             id: WarnBox
@@ -3734,27 +4022,13 @@ entities:
     - type: ShuttleDeed
       shuttleName: Shuttle KXZ-275
       shuttleUid: 1
-- proto: AAAardpointMediumMissile
+    - type: SelfDeleteGrid
+- proto: AAAHardpointSmallEnergy
   entities:
   - uid: 2
     components:
     - type: Transform
-      pos: 2.5,-20.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 3
-    components:
-    - type: Transform
-      pos: 30.5,-20.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-- proto: AAAHardpointSmallBallistic
-  entities:
-  - uid: 4
-    components:
-    - type: Transform
+      rot: -1.5707963267948966 rad
       pos: 0.5,5.5
       parent: 1
     - type: Physics
@@ -3762,34 +4036,46 @@ entities:
   - uid: 5
     components:
     - type: Transform
-      pos: 0.5,17.5
-      parent: 1
-    - type: Physics
-      canCollide: False
-  - uid: 6
-    components:
-    - type: Transform
-      pos: 32.5,17.5
+      rot: 3.141592653589793 rad
+      pos: 30.5,-20.5
       parent: 1
     - type: Physics
       canCollide: False
   - uid: 7
     components:
     - type: Transform
+      rot: 1.5707963267948966 rad
       pos: 32.5,5.5
       parent: 1
     - type: Physics
       canCollide: False
-  - uid: 8
+  - uid: 3155
     components:
     - type: Transform
-      pos: 16.5,-16.5
+      rot: 3.141592653589793 rad
+      pos: 2.5,-20.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 3158
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,17.5
+      parent: 1
+    - type: Physics
+      canCollide: False
+  - uid: 3160
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 32.5,17.5
       parent: 1
     - type: Physics
       canCollide: False
 - proto: AirAlarm
   entities:
-  - uid: 9
+  - uid: 8
     components:
     - type: Transform
       pos: 25.5,-9.5
@@ -3798,7 +4084,7 @@ entities:
       devices:
       - 2179
       - 2164
-  - uid: 10
+  - uid: 9
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3808,7 +4094,7 @@ entities:
       devices:
       - 2180
       - 2165
-  - uid: 11
+  - uid: 10
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -3818,7 +4104,7 @@ entities:
       devices:
       - 2176
       - 2160
-  - uid: 12
+  - uid: 11
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3828,7 +4114,7 @@ entities:
       devices:
       - 2177
       - 2163
-  - uid: 13
+  - uid: 12
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3838,7 +4124,7 @@ entities:
       devices:
       - 2178
       - 2162
-  - uid: 14
+  - uid: 13
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3848,7 +4134,7 @@ entities:
       devices:
       - 2169
       - 2184
-  - uid: 15
+  - uid: 14
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -3860,7 +4146,7 @@ entities:
       - 2185
 - proto: AirAlarmVox
   entities:
-  - uid: 16
+  - uid: 15
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -3870,7 +4156,7 @@ entities:
       devices:
       - 2159
       - 2172
-  - uid: 17
+  - uid: 16
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -3880,7 +4166,7 @@ entities:
       devices:
       - 2157
       - 2173
-  - uid: 18
+  - uid: 17
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -3890,7 +4176,7 @@ entities:
       devices:
       - 2158
       - 2174
-  - uid: 19
+  - uid: 18
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3900,7 +4186,7 @@ entities:
       devices:
       - 2182
       - 2167
-  - uid: 20
+  - uid: 19
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -3910,7 +4196,7 @@ entities:
       devices:
       - 2166
       - 2181
-  - uid: 21
+  - uid: 20
     components:
     - type: Transform
       rot: 3.141592653589793 rad
@@ -3920,7 +4206,7 @@ entities:
       devices:
       - 2168
       - 2183
-  - uid: 22
+  - uid: 21
     components:
     - type: Transform
       pos: 7.5,-9.5
@@ -3929,7 +4215,7 @@ entities:
       devices:
       - 2161
       - 2175
-  - uid: 23
+  - uid: 22
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -3939,7 +4225,7 @@ entities:
       devices:
       - 2156
       - 2171
-  - uid: 24
+  - uid: 23
     components:
     - type: Transform
       rot: 1.5707963267948966 rad
@@ -3951,7 +4237,7 @@ entities:
       - 2171
 - proto: AirCanister
   entities:
-  - uid: 25
+  - uid: 24
     components:
     - type: Transform
       anchored: True
@@ -3959,7 +4245,7 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
-  - uid: 26
+  - uid: 25
     components:
     - type: Transform
       anchored: True
@@ -3967,7 +4253,7 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
-  - uid: 27
+  - uid: 26
     components:
     - type: Transform
       anchored: True
@@ -3975,7 +4261,7 @@ entities:
       parent: 1
     - type: Physics
       bodyType: Static
-  - uid: 28
+  - uid: 27
     components:
     - type: Transform
       anchored: True
@@ -3985,25 +4271,25 @@ entities:
       bodyType: Static
 - proto: Airlock
   entities:
-  - uid: 29
+  - uid: 28
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 10.5,0.5
       parent: 1
-  - uid: 30
+  - uid: 29
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 11.5,0.5
       parent: 1
-  - uid: 31
+  - uid: 30
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
       pos: 21.5,0.5
       parent: 1
-  - uid: 32
+  - uid: 31
     components:
     - type: Transform
       rot: -1.5707963267948966 rad
@@ -4011,124 +4297,124 @@ entities:
       parent: 1
 - proto: AirlockCommand
   entities:
-  - uid: 33
+  - uid: 32
     components:
     - type: Transform
       pos: 14.5,-8.5
       parent: 1
-  - uid: 34
+  - uid: 33
     components:
     - type: Transform
       pos: 27.5,-12.5
       parent: 1
-  - uid: 36
+  - uid: 34
     components:
     - type: Transform
       pos: 15.5,-5.5
       parent: 1
-  - uid: 38
+  - uid: 35
     components:
     - type: Transform
       pos: 17.5,-5.5
       parent: 1
-  - uid: 39
+  - uid: 36
     components:
     - type: Transform
       pos: 8.5,-8.5
       parent: 1
-  - uid: 41
+  - uid: 37
     components:
     - type: Transform
       pos: 26.5,-6.5
       parent: 1
-  - uid: 42
+  - uid: 38
     components:
     - type: Transform
       pos: 29.5,-15.5
       parent: 1
-  - uid: 43
+  - uid: 39
     components:
     - type: Transform
       pos: 3.5,-15.5
       parent: 1
-  - uid: 44
+  - uid: 40
     components:
     - type: Transform
       pos: 28.5,-6.5
       parent: 1
-  - uid: 45
+  - uid: 41
     components:
     - type: Transform
       pos: 18.5,-8.5
       parent: 1
-  - uid: 47
+  - uid: 42
     components:
     - type: Transform
       pos: 5.5,-12.5
       parent: 1
-  - uid: 50
+  - uid: 43
     components:
     - type: Transform
       pos: 1.5,8.5
       parent: 1
-  - uid: 51
+  - uid: 44
     components:
     - type: Transform
       pos: 31.5,14.5
       parent: 1
-  - uid: 55
+  - uid: 45
     components:
     - type: Transform
       pos: 1.5,14.5
       parent: 1
-  - uid: 3160
+  - uid: 46
     components:
     - type: Transform
       pos: 31.5,8.5
       parent: 1
 - proto: AirlockCommandHorizontal
   entities:
-  - uid: 35
+  - uid: 47
     components:
     - type: Transform
       pos: 27.5,-17.5
       parent: 1
-  - uid: 37
+  - uid: 48
     components:
     - type: Transform
       pos: 28.5,-10.5
       parent: 1
-  - uid: 40
+  - uid: 49
     components:
     - type: Transform
       pos: 4.5,-10.5
       parent: 1
-  - uid: 46
+  - uid: 50
     components:
     - type: Transform
       pos: 23.5,-4.5
       parent: 1
-  - uid: 48
+  - uid: 51
     components:
     - type: Transform
       pos: 5.5,-17.5
       parent: 1
-  - uid: 49
+  - uid: 52
     components:
     - type: Transform
       pos: 3.5,10.5
       parent: 1
-  - uid: 52
+  - uid: 53
     components:
     - type: Transform
       pos: 3.5,12.5
       parent: 1
-  - uid: 53
+  - uid: 54
     components:
     - type: Transform
       pos: 29.5,12.5
       parent: 1
-  - uid: 54
+  - uid: 55
     components:
     - type: Transform
       pos: 29.5,10.5
@@ -17021,8 +17307,8 @@ entities:
       configurators:
       - invalid
       deviceLists:
-      - 24
       - 23
+      - 22
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2157
@@ -17033,7 +17319,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 17
+      - 16
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2158
@@ -17044,7 +17330,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 18
+      - 17
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2159
@@ -17055,7 +17341,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 16
+      - 15
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2160
@@ -17065,7 +17351,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 11
+      - 10
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2161
@@ -17076,7 +17362,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 22
+      - 21
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2162
@@ -17087,7 +17373,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 13
+      - 12
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2163
@@ -17098,7 +17384,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 12
+      - 11
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2164
@@ -17109,7 +17395,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 9
+      - 8
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2165
@@ -17119,7 +17405,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 10
+      - 9
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2166
@@ -17130,7 +17416,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 20
+      - 19
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2167
@@ -17141,7 +17427,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 19
+      - 18
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2168
@@ -17152,7 +17438,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 21
+      - 20
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2169
@@ -17162,7 +17448,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 14
+      - 13
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2170
@@ -17172,7 +17458,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 15
+      - 14
     - type: AtmosPipeColor
       color: '#990000FF'
 - proto: GasVentScrubber
@@ -17187,8 +17473,8 @@ entities:
       configurators:
       - invalid
       deviceLists:
-      - 24
       - 23
+      - 22
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2172
@@ -17199,7 +17485,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 16
+      - 15
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2173
@@ -17210,7 +17496,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 17
+      - 16
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2174
@@ -17221,7 +17507,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 18
+      - 17
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2175
@@ -17232,7 +17518,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 22
+      - 21
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2176
@@ -17242,7 +17528,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 11
+      - 10
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2177
@@ -17253,7 +17539,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 12
+      - 11
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2178
@@ -17264,7 +17550,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 13
+      - 12
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2179
@@ -17275,7 +17561,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 9
+      - 8
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2180
@@ -17285,7 +17571,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 10
+      - 9
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2181
@@ -17296,7 +17582,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 20
+      - 19
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2182
@@ -17307,7 +17593,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 19
+      - 18
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2183
@@ -17318,7 +17604,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 21
+      - 20
     - type: AtmosPipeColor
       color: '#990000FF'
   - uid: 2184
@@ -17329,7 +17615,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 14
+      - 13
     - type: AtmosPipeColor
       color: '#0055CCFF'
   - uid: 2185
@@ -17340,7 +17626,7 @@ entities:
       parent: 1
     - type: DeviceNetwork
       deviceLists:
-      - 15
+      - 14
     - type: AtmosPipeColor
       color: '#0055CCFF'
 - proto: GeneratorRTG
@@ -22184,8 +22470,6 @@ entities:
       rot: -1.5707963267948966 rad
       pos: 25.5,-0.5
       parent: 1
-    - type: Thruster
-      enabled: False
   - uid: 2764
     components:
     - type: Transform
@@ -25225,113 +25509,43 @@ entities:
     - type: Transform
       pos: 16.5,-2.5
       parent: 1
-- proto: WeaponTurretPDT
+- proto: WeaponTurretRetribution
   entities:
+  - uid: 3
+    components:
+    - type: Transform
+      rot: -1.5707963267948966 rad
+      pos: 0.5,17.5
+      parent: 1
+  - uid: 4
+    components:
+    - type: Transform
+      rot: 1.5707963267948966 rad
+      pos: 32.5,17.5
+      parent: 1
+  - uid: 6
+    components:
+    - type: Transform
+      pos: 2.5,-20.5
+      parent: 1
   - uid: 3154
     components:
     - type: Transform
-      pos: 32.5,5.5
+      rot: -1.5707963267948966 rad
+      pos: 0.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: PointCannon
-      linkedConsoleId: 1616
-  - uid: 3155
-    components:
-    - type: Transform
-      pos: 32.5,17.5
-      parent: 1
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: PointCannon
-      linkedConsoleId: 1616
   - uid: 3156
     components:
     - type: Transform
-      pos: 0.5,17.5
+      rot: 1.5707963267948966 rad
+      pos: 32.5,5.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: PointCannon
-      linkedConsoleId: 1616
   - uid: 3157
     components:
     - type: Transform
-      pos: 0.5,5.5
+      rot: 1.5707963267948966 rad
+      pos: 30.5,-20.5
       parent: 1
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-    - type: PointCannon
-      linkedConsoleId: 1616
-  - uid: 3158
-    components:
-    - type: Transform
-      pos: 16.5,-16.5
-      parent: 1
-    - type: PointCannon
-      linkedConsoleId: 1616
-    - type: ContainerContainer
-      containers:
-        ballistic-ammo: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_board: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
-        machine_parts: !type:Container
-          showEnts: False
-          occludes: True
-          ents: []
 - proto: Wrench
   entities:
   - uid: 3159
