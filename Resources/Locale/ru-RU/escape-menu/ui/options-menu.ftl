@@ -285,9 +285,3 @@ ui-options-net-pvs-leave-tooltip =
 
 cmd-options-desc = Открывает меню опций, опционально с конкретно выбранной вкладкой.
 cmd-options-help = Использование: options [tab]
-
-## Боевые опции
-
-ui-options-function-look-up = Смотреть вверх/прицелиться
-ui-options-function-auto-get-up = Автоматически вставать при падении
-ui-options-function-hold-look-up = Удерживать клавишу для прицеливания

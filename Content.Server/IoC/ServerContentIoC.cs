@@ -5,10 +5,8 @@ using Content.Server.Administration.Notes;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
 using Content.Server.Connection;
-using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.Discord;
-using Content.Server.Discord.WebhookMessages;
 using Content.Server.EUI;
 using Content.Server.GhostKick;
 using Content.Server.Info;
@@ -76,16 +74,9 @@ namespace Content.Server.IoC
             IoCManager.Register<PlayerRateLimitManager>();
             IoCManager.Register<SharedPlayerRateLimitManager, PlayerRateLimitManager>();
             IoCManager.Register<MappingManager>();
-<<<<<<< HEAD
-=======
-            IoCManager.Register<IWatchlistWebhookManager, WatchlistWebhookManager>();
-            IoCManager.Register<ConnectionManager>();
-            IoCManager.Register<MultiServerKickManager>();
-            IoCManager.Register<CVarControlManager>();
             IoCManager.Register<DiscordAuthManager>(); // Forge-Change
             IoCManager.Register<SponsorManager>(); // Forge-Change
             IoCManager.Register<ISharedSponsorManager, SponsorManager>(); // Forge-Change
->>>>>>> ef21ebb6a5 (Привязка и донат система)
         }
     }
 }

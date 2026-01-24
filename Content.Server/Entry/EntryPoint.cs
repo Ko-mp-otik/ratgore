@@ -5,7 +5,6 @@ using Content.Server.Administration.Managers;
 using Content.Server.Afk;
 using Content.Server.Chat.Managers;
 using Content.Server.Connection;
-using Content.Server.JoinQueue;
 using Content.Server.Database;
 using Content.Server.EUI;
 using Content.Server.GameTicking;
