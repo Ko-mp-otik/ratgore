@@ -66,8 +66,8 @@ jobs:
         run: Tools/actions_changelogs_since_last_run.py
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-          DISCORD_WEBHOOK_URL: ${{ secrets.DISCORD_WEBHOOK_URL }}
-          DISCORD_CHANGELOG_ROLE_ID: "1308143973684088883"
+          DISCORD_WEBHOOK_URL: ${{ secrets.CHANGELOG_DISCORD_WEBHOOK }}
+          DISCORD_CHANGELOG_ROLE_ID: "1318776836599320663"
 
       - name: Publish changelog (RSS)
         run: Tools/actions_changelog_rss.py
