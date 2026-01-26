@@ -3,9 +3,9 @@
 
 - type: vessel
   id: Cockroach
-  name: ШТ Гусеница
+  name: ШТ Таракан
   description: |
-    "Гусеница" — это грузовое судно значительного размера, проворное и маневренное, но его грузовой отсек полностью открыт в космос. Рекомендуется сопровождение, так как это делает корабль уязвимым для атак пиратов.
+    "Таракан" — это грузовое судно значительного размера, проворное и маневренное, но его грузовой отсек полностью открыт в космос. Рекомендуется сопровождение, так как это делает корабль уязвимым для атак пиратов.
     МИНИМАЛЬНЫЙ ЭКИПАЖ: 1x Пилот
   price: 85000
   category: Large
@@ -14,7 +14,7 @@
 
 - type: gameMap
   id: Cockroach
-  mapName: 'Гусеница'
+  mapName: 'Таракан'
   mapPath: /Maps/_Crescent/Shuttles/Civilian/cockroach.yml
   minPlayers: 0
   stations:
@@ -26,7 +26,7 @@
             sprite: _Crescent/ShipIcons/ifficons.rsi
             state: bigindustrial
         - type: StationNameSetup
-          mapNameTemplate: 'Гусеница {1}'
+          mapNameTemplate: 'Таракан {1}'
           nameGenerator:
             !type:NanotrasenNameGenerator
             prefixCreator: '14'
