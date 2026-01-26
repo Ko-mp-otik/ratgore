@@ -16,10 +16,6 @@
     Covetor:
       stationProto: StandardCrescentCivilianVessel
       components:
-        - type: VesselIcon
-          iffIcon:
-            sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: bigindustrial
         - type: StationNameSetup
           mapNameTemplate: 'БМС Коветор {1}'
           nameGenerator:

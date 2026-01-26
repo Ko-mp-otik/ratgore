@@ -19,10 +19,6 @@
     Hind:
       stationProto: StandardCrescentVessel
       components:
-        - type: VesselIcon
-          iffIcon:
-            sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: frigate
         - type: StationNameSetup
           mapNameTemplate: 'ЛРНП Нанд {1}'
           nameGenerator:
