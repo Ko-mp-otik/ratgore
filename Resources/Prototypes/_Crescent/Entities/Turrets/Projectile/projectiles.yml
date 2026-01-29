@@ -13,8 +13,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 120
-        Piercing: 90
+        Structural: 26
+        Piercing: 50
   - type: PointLight
     radius: 3.5
     color: orange
@@ -42,8 +42,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 80
-        Piercing: 60
+        Structural: 20
+        Piercing: 50
   - type: PointLight
     radius: 3.5
     color: orange
@@ -71,7 +71,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 30
+        Structural: 20
         Piercing: 20
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -105,7 +105,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 200
+        Structural: 45
         Piercing: 85
   - type: ProjectilePhasePrevent
   - type: PointLight
@@ -134,7 +134,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 150
+        Structural: 35
         Piercing: 75
   - type: ProjectilePhasePrevent
   - type: PointLight
@@ -164,7 +164,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 75
+        Structural: 30
         Piercing: 45
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -201,15 +201,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 320
-        Piercing: 60
-  - type: ExplodeOnTrigger
-  - type: Explosive
-    explosionType: Default
-    maxIntensity: 100
-    intensitySlope: 100
-    totalIntensity: 500
-    maxTileBreak: 2
+        Structural: 130
+        Piercing: 80
   - type: PointLight
     radius: 3.5
     color: orange
@@ -235,7 +228,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 240
+        Structural: 80
         Piercing: 50
   - type: PointLight
     radius: 3.5
@@ -262,7 +255,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 200
+        Structural: 50
         Piercing: 30
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -299,8 +292,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 360
-        Piercing: 50
+        Structural: 80
+        Piercing: 80
   - type: ExplodeOnTrigger
   - type: Explosive
     explosionType: Default
@@ -334,7 +327,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 480
+        Structural: 100
         Piercing: 40
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -368,7 +361,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 640
+        Structural: 150
         Piercing: 40
   - type: ExplodeOnTrigger
   - type: Explosive
@@ -403,7 +396,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 700
+        Structural: 150
+        Piercing: 150
   - type: TimedDespawn
     lifetime: 30 #1350m
   - type: Sprite
@@ -436,7 +430,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 900
+        Structural: 200
+        Piercing: 100
   - type: TimedDespawn
     lifetime: 90 #4000m
   - type: Sprite
@@ -469,7 +464,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 1200
+        Structural: 250
   - type: TimedDespawn
     lifetime: 65 #2925m
   - type: Sprite
@@ -499,7 +494,7 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 10000
+        Structural: 1000
   - type: TimedDespawn
     lifetime: 180 #6300
   - type: Sprite
@@ -534,8 +529,8 @@
     ignoreWeaponGrid: true
     damage:
       types:
-        Structural: 80
-        Blunt: 80
+        Structural: 100
+        Blunt: 150
   - type: Tag
     tags:
       - FlakShell
