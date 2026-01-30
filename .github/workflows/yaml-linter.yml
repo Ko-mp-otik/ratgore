@@ -33,3 +33,5 @@ jobs:
         run: dotnet build --configuration Release --no-restore /p:WarningsAsErrors= /m
       - name: Run Linter
         run: dotnet run --project Content.YAMLLinter/Content.YAMLLinter.csproj --no-build
+        env:
+          INPUT_SCHEMA: Schemas/rga.yml
