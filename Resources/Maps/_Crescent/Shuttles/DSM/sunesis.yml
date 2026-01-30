@@ -1554,7 +1554,7 @@ entities:
     - type: VesselIcon
       iffIcon:
         sprite: _Crescent/ShipIcons/ifficons.rsi
-        state: destroyer
+        state: large_industrial
     - type: BecomesStation
       id: Sunesis
     - type: SelfDeleteGrid
