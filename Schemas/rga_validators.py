@@ -27,4 +27,8 @@ class Url(Validator):
 
     def _is_valid(self, value):
         # Source field is required to ensure its not neglected, but there may be no applicable URL
-        return (value == "NA") or (value == "") or validators.url(value)
+        allowed_value = [
+            "StarSector, Bombardment Menu",
+            "Hullrot Development Team"
+        ]
+        return (value == "NA") or (value == "") or validators.url(value) or (value in allowed_value)
