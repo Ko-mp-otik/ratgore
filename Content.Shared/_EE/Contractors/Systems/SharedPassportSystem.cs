@@ -53,13 +53,14 @@ public class SharedPassportSystem : EntitySystem
 
         var species = _prototypeManager.Index<SpeciesPrototype>(component.OwnerProfile.Species);
 
-        args.PushMarkup($"Registered to: {component.OwnerProfile.Name}", 50);
-        args.PushMarkup($"Species: {Loc.GetString(species.Name)}", 49);
-        args.PushMarkup($"Sex: {component.OwnerProfile.Gender}", 48);
-        args.PushMarkup($"Height: {MathF.Round(component.OwnerProfile.Height * species.AverageHeight)} cm", 47);
-        args.PushMarkup($"Year of Birth: {CurrentYear - component.OwnerProfile.Age}", 46);
-
-        args.PushMarkup(
+        // Ratgore start - RU localization
+        args.PushMarkup(Loc.GetString("passport-registered-to", ("name", component.OwnerProfile.Name)), 50);
+        args.PushMarkup(Loc.GetString("passport-species", ("species", Loc.GetString(species.Name))), 49);
+        args.PushMarkup(Loc.GetString("passport-gender", ("gender", component.OwnerProfile.Gender.ToString())), 48);
+        args.PushMarkup(Loc.GetString("passport-height", ("height", MathF.Round(component.OwnerProfile.Height * species.AverageHeight))), 47);
+        args.PushMarkup(Loc.GetString("passport-year-of-birth", ("year", CurrentYear - component.OwnerProfile.Age)), 46);
+        // Ratgore end
+        args.PushMarkup( // idk how translate this.. ПИД? Айди? just stay PID
             $"PID: {GenerateIdentityString(component.OwnerProfile.Name
             + component.OwnerProfile.Height
             + component.OwnerProfile.Age
