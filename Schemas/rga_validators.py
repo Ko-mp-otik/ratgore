@@ -24,13 +24,11 @@ class License(Validator):
 
 class Url(Validator):
     tag = "url"
-    allowed_value = [
-            "StarSector, Bombardment Menu",
-            "Hullrot Development Team"
-        ]
 
     def _is_valid(self, value):
         # Source field is required to ensure its not neglected, but there may be no applicable URL
-        if not isinstance(value, str):
-            return False
-        return (value in ("NA", "")) or validators.url(value) or (value in self.allowed_values)
+        allowed_value = [
+            "StarSector, Bombardment Menu",
+            "Hullrot Development Team"
+        ]
+        return (value == "NA") or (value == "") or validators.url(value) or (value in allowed_value)
