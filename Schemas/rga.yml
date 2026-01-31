@@ -6,7 +6,7 @@ attribution:
   files: list(str())
   license: license()
   copyright: str()
-  source: any(include('url'), include(''))
+  source: url()
 
 # Example
 # - files: ["deprecated.png"]
