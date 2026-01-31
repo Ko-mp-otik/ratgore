@@ -1,7 +1,10 @@
 - type: vessel
   id: Ibis
   name: БМС Ибис
-  description: Тяжёлый истребитель, оснащённый блуждающим эмиттером щита, предназначенный для миссий дальнего радиуса действия.
+  description: |
+    Тяжёлый истребитель, оснащённый блуждающим эмиттером щита, предназначенный для миссий дальнего радиуса действия.
+    LOADOUT: 2x 150cc 'Starburst' hybrid plasma gatlings
+    MINIMUM CREW: 1x Pilot
   price: 38000
   category: Small
   group: None
@@ -19,7 +22,7 @@
         - type: VesselIcon
           iffIcon:
             sprite: _Crescent/ShipIcons/ifficons.rsi
-            state: corvette
+            state: fighter
         - type: StationNameSetup
           mapNameTemplate: 'БМС Ибис {1}'
           nameGenerator:

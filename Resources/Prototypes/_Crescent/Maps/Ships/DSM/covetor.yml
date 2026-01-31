@@ -1,8 +1,11 @@
 - type: vessel
   id: Covetor
   name: БМС Коветор
-  description: Хорошо оснащённый имперский шаттл для добычи полезных ископаемых и утилизации, с просторным грузовым отсеком и вооружением для самообороны.
-  price: 75000
+  description: |
+    Хорошо оснащенная имперская промышленный шаттл размером с эсминец, предназначенный для добычи полезных ископаемых, разборки завалов и производства боеприпасов. Легковооружена и неповоротлива.
+    LOADOUT: 1x 300w 'Curse' energized ion bolt cannon, 4x 200cc 'Retribution' small laser gatling, 1x SHI 250c "Exhumer" kinetic Pulser
+    MINIMUM CREW: 1x Captain, 1x Gunner, 2x Miner Crew
+  price: 85000
   category: Small
   group: None
   path: /Maps/_Crescent/Shuttles/DSM/covetor.yml
@@ -16,6 +19,10 @@
     Covetor:
       stationProto: StandardCrescentCivilianVessel
       components:
+        - type: VesselIcon
+          iffIcon:
+            sprite: _Crescent/ShipIcons/ifficons.rsi
+            state: large_industrial
         - type: StationNameSetup
           mapNameTemplate: 'БМС Коветор {1}'
           nameGenerator:
